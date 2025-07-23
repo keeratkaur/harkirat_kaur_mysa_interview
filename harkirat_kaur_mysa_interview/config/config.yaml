@@ -1,0 +1,18 @@
+plant_water_need_per_day=10.0
+plant_stress_threshold=10.0
+plant_absorption_rate=0.05
+soil_retention_rate=0.8
+soil_drainage_factor=0.2
+moisture_threshold=100.0 # Force pump ON at start
+pump_flow_rate=6.0
+water_cost=0.1
+simulation_duration=60
+# Water Conservation Mode
+conservation_mode_enabled=false
+conservation_water_cost_threshold=0.5
+conservation_drought_moisture_threshold=20.0
+conservation_moisture_threshold=30.0 # Lowered for more aggressive conservation watering
+conservation_night_start_hour=22
+conservation_night_end_hour=6 
+pump_power_watts=60.0 # Power consumption of the pump in Watts 
+simulation_step=1.0 # Simulation step size in seconds (default 1.0) 
